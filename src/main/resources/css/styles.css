@@ -1,0 +1,16 @@
+
+
+/*.container mt-5 *{*/
+/*    border-radius: 0;*/
+/*    background-color: #262525;*/
+/*    color: #ffffff;*/
+/*    border-color: #3b3b3b;*/
+/*}*/
+.form-group-button * {
+     margin-top: 20px;
+ }
+
+.form-group * {
+    width: 50%;
+    margin-left: 300px;
+}
