@@ -1,0 +1,31 @@
+/*body {*/
+/*    background-color: black;*/
+/*    color: white;*/
+/*}*/
+
+/*.container mt-5 {*/
+/*    background-color: black;*/
+/*    text-align: left;*/
+/*    margin-top: 50px; !* Adjust the top margin as needed *!*/
+/*}*/
+
+/*.form-group {*/
+/*    margin-bottom: 40px; !* Adjust the margin between form groups as needed *!*/
+/*}*/
+
+/*label {*/
+/*    display: block; !* Ensure labels are displayed as blocks *!*/
+/*    margin-bottom: 5px; !* Adjust the margin between labels and input fields as needed *!*/
+/*}*/
+
+/*input[type="text"],*/
+/*input[type="tel"],*/
+/*input[type="date"] {*/
+/*    width: 100%; !* Make the input fields fill the entire width of the container *!*/
+/*    padding: 8px; !* Adjust padding as needed for better appearance *!*/
+/*    box-sizing: border-box; !* Include padding in the width *!*/
+/*}*/
+
+/*.form-group-button {*/
+/*    margin-top: 20px; !* Adjust the top margin for the button *!*/
+/*}*/

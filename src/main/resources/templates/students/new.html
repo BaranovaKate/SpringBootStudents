@@ -4,10 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Create student</title>
-  <link rel="stylesheet" href="../../css/bootstrap.min.css">
-  <link rel="stylesheet" href="../../css/styles.css">
-
-
+  <link rel="stylesheet" href="../../static/css/bootstrap.min.css">
+<!--  <link th:href="@{../../static/styles/cssandjs/main.css}" rel="stylesheet" />-->
+<!--  <link th:href="@{/static/styles/cssandjs/main.css}" rel="stylesheet" />-->
+  <link th:href="@{/styles/cssandjs/main.css}" rel="stylesheet" />
   <script>
     window.addEventListener("DOMContentLoaded", function () {
       [].forEach.call(document.querySelectorAll('.tel'), function (input) {
@@ -51,6 +51,44 @@
     });
   </script>
 
+  <style>
+
+    body {
+      background-color: #ffffff;
+      color: #000000;
+    }
+
+    .container {
+      background-color: #ffffff;
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    .form-group {
+      margin-bottom: 30px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    input[type="text"],
+    input[type="tel"],
+    input[type="date"] {
+      width: 50%; /* Make the input fields fill the entire width of the container */
+      padding: 8px; /* Adjust padding as needed for better appearance */
+      box-sizing: border-box; /* Include padding in the width */
+    }
+
+    .form-group-button {
+      margin-top: 0px; /* Adjust the top margin for the button */
+    }
+
+  </style>
+
+
+
 </head>
 <body>
 
@@ -72,8 +110,9 @@
 
     <div class="form-group">
       <label for="name">Enter phone number: </label>
-      <input type="tel" class="form-control tel" th:field="*{phoneNumber}" id="phoneNumber"/>
+      <input type="tel" th:field="*{phoneNumber}" id="phoneNumber"/>
     </div>
+
 
     <div class="form-group">
       <label for="name">Enter date of birth: </label>
@@ -87,7 +126,6 @@
   </form>
 
 </div>
-<script src="../../js/bootstrap.bundle.min.js"></script>
-
+<script src="../../static/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
